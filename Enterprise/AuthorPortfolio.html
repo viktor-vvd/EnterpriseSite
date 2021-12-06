@@ -1,0 +1,229 @@
+﻿<html>
+<head>
+    <title>minimize</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
+    <style>
+        body {
+            font-family: 'Raleway', sans-serif;
+            margin: 0;
+            background-color: black;
+            background-image: url("Pictures\\ab.jpg");
+            background-attachment: fixed;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+
+        #frame {
+            width: 100%;
+            height: 800px;
+            background-color: #12171a /*#1C1C1C*/ /*#0F0A0F*/;
+            margin: 0 auto;
+            display: block;
+        }
+
+        #frame2 {
+            width: 100%;
+            height: 1000px;
+            background-color: #12171a /*#1C1C1C*/ /*#0F0A0F*/;
+            margin: 0 auto;
+            display: block;
+        }
+
+        header {
+            width: 100%;
+            height: 945px;
+            background-color: none;
+            margin: 0 auto;
+            margin-top: 0px auto;
+            text-align: center;
+            font-size: 20px;
+            color: white;
+            padding-top: 35%;
+        }
+
+            header p {
+                font-size: 35px;
+            }
+
+        main {
+            height: 400px;
+            width: 85%;
+            margin: auto;
+            padding: 10px;
+            color: white;
+            align-content: center;
+        }
+
+        aside {
+            width: 500px;
+            height: 600px;
+            float: left;
+            margin: 40px;
+        }
+
+        article {
+            font-size: 14pt;
+        }
+
+
+        nav {
+            background-color: #010102;
+            height: 40px;
+            width: 100%;
+            margin: 0px;
+            padding: 0px;
+            color: white;
+            font-size: 20px;
+            position: fixed;
+        }
+
+        #main a {
+            color: White;
+        }
+
+        a {
+            text-decoration: none;
+            margin: 10px;
+        }
+
+        #main {
+            margin: 0px;
+            padding-left: 5px;
+            display: inline-block;
+        }
+
+        #reg {
+            margin-right: 10px;
+            float: right;
+            display: inline-block;
+        }
+
+            #reg a {
+                color: white;
+            }
+
+        #ii {
+            display: inline-block;
+        }
+
+        #i1 {
+            width: 45px;
+            margin-left: 10px;
+            transform: scaleY(0.1) scaleX(0);
+            transform-origin: left;
+            //transform: translateX(-10px);
+            background: black;
+            transition-duration: 1s;
+        }
+
+        #ii:hover #i1 {
+            transform-origin: left;
+            transform: translateX(-10px);
+            transform: scaleY(0.1) scaleX(2);
+            background-color: white;
+            transition-timing-function: ease-in-out;
+        }
+
+        #i2 {
+            width: 80px;
+            margin-left: 10px;
+            transform: scaleY(0.1) scaleX(0);
+            transform-origin: left;
+            //transform: translateX(-10px);
+            background: black;
+            transition-duration: 1s;
+        }
+
+        #ii:hover #i2 {
+            transform-origin: left;
+            transform: translateX(-10px);
+            transform: scaleY(0.1) scaleX(2);
+            background-color: white;
+            transition-timing-function: ease-in-out;
+        }
+
+        #i3 {
+            width: 23px;
+            margin-left: 10px;
+            transform: scaleY(0.1) scaleX(0);
+            transform-origin: left;
+            //transform: translateX(-10px);
+            background: black;
+            transition-duration: 1s;
+        }
+
+        #ii:hover #i3 {
+            transform-origin: left;
+            transform: translateX(-10px);
+            transform: scaleY(0.1) scaleX(2);
+            background-color: white;
+            transition-timing-function: ease-in-out;
+        }
+
+        #im {
+            transition-duration: 2s;
+            align-content: center;
+        }
+
+            #im:hover {
+                transform: scaleX(1.1) scaleY(1.1);
+                transition-timing-function: ease-in-out;
+            }
+    </style>
+</head>
+<body>
+    <nav id="main">
+        <div id="ii" style="margin-left: 27px; margin-top: 5px;">
+            <span>
+                <a href="#frame">about me</a>
+            </span>
+            <div id="i1">-</div>
+        </div>
+        <div id="ii">
+            <span>
+                <a href="#frame2">why minimalism?</a>
+            </span>
+            <div id="i2">-</div>
+        </div>
+        <span id="reg" style="margin-right: 27px; margin-top: 5px;"><a href="index.html"><span id="en">Enter</span><span id="pr" style="color: dimgrey;">prise</span></a></span>
+    </nav>
+    <header>
+        <p class="animated fadeInLeft delay-0.5s"><b>viktor_vvd</b><br />programmer&designer-minimalist</p>
+    </header>
+
+    <aside><img src="Pictures\\a1.png" style="width: 430px" /><img src="Pictures\\a2.jpg" style="width: 430px; margin-top: 20px;" /></aside>
+    <div id="frame">
+        <main>
+            <article id="article">
+                <h1>About me</h1>
+                Hi.<br />
+                My name is Viktor and I am a student of Computer Academy STEP, programmer and designer-minimalist in soul.<br /><br />
+
+                I study every day to create programs, minimalistic websites and cool designs. I like geometric forms, which inspire a sense of balance and a content-oriented design to serve information quickly and easily.<br /><br />
+
+                I absolutely need some caffeine injection and a good pair of headphones to work hard and profitably.<br /><br />
+
+                I like minimalistic things because they are so simple but so cool and beautiful.<br /><br />
+
+                I am a lover of driving cars, a travel-passionate and as a true Italian I'm a keen cook.<br /><br />
+
+                Actually, I live in Ukraine.
+            </article>
+        </main>
+    </div>
+    <div id="frame2">
+        <main>
+            <h1 style="margin: auto; width: 50%; align-content: center; text-align:center">Why minimalism?</h1>
+            <img id="im" src="Pictures\\a3.png" style="margin: 20px;width: 375px;">
+            <img id="im" src="Pictures\\a4.png" style="margin: 20px; width: 375px;">
+            <img id="im" src="Pictures\\a5.jpg" style="margin: 20px; width: 375px;">
+            <img id="im" src="Pictures\\a6.jpg" style="margin: 20px; width: 375px;">
+            <img id="im" src="Pictures\\a7.jpg" style="margin: 20px;  width: 375px;">
+            <img id="im" src="Pictures\\a8.jpg" style="margin: 20px; width: 375px;">
+        </main>
+    </div>
+
+
+</body>
+</html>
